@@ -10,8 +10,13 @@ setup(
     license='MIT',
     classifiers=[
         'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.8',
     ],
     packages=['pass_logit'],
+    # 3.8 is the newest Python with wheels for numpy==1.18.0 (pinned below);
+    # it's also the newest interpreter available as of Dec 2019, when this
+    # project was written (released 2019-10-14)
+    python_requires='>=3.8,<3.9',
     # pinned to the latest releases available as of Dec 2019, when this
     # project was written
     install_requires=[
