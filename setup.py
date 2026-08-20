@@ -20,7 +20,7 @@ setup(
     # pinned to the latest releases available as of Dec 2019, when this
     # project was written
     install_requires=[
-        'pyspark==2.4.4',
+        'pyspark==3.4.4',
         'numpy==1.18.0',
         'sympy==1.5',
         'theano==1.0.4',
