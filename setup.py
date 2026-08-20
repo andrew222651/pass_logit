@@ -16,7 +16,7 @@ setup(
     # project was written
     install_requires=[
         'pyspark==2.4.4',
-        'numpy==1.18.0',
+        'numpy==1.22.0',
         'sympy==1.5',
         'theano==1.0.4',
         'scipy==1.4.1',
